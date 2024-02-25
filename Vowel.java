@@ -17,8 +17,8 @@ public class Vowel {
         input.close();
 
         // calls the method countVowels and prints the result
-        int count = cntVowels(sentence);
-        System.out.println("Number of vowels  wihout repetition are: " + count);
+        int count = cntVowels(sentence.toLowerCase());
+        System.out.println("Number of vowels  is: " + count);
 
     }
 
